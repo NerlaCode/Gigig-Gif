@@ -1,0 +1,39 @@
+.Gif-wrapper {
+  text-align: center;
+  background-color: aquamarine;
+  /* width: 40%; */
+  /* height: 200px; */
+  /* max-height: 300px; */
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 20px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+.Gif-image {
+  box-sizing: border-box;
+  min-height: 100px;
+}
+
+.Gif-image img {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 200px;
+  max-height: 300px;
+  height: auto;
+}
+
+.Gif-content .title {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.content-wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
